@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.container {
+    width: 1170px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+       
+}
+p{
+    padding-left: 200px;
+    padding-top: 50px;
+    font-weight: 600;
+    color: black;
+}
+.alphabetBtn{
+    padding-top: 20px;
+    padding-left: 200px;
+    
+    
+}
+.alphabetBtn a{
+    text-decoration: none;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-weight: 500;
+    color: black;
+    border: 1px solid turquoise;
+    transition: 2s;
+}
+
+.alphabetBtn a:hover{
+    background-color: turquoise;
+}
+
+.sortArea{
+    padding-top: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sort-btn{
+    padding-right: 200px;
+}
+
+.sort-btn button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid turquoise;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    border-radius: 3px;
+    transition: 2s;
+}
+
+.sort-btn button:hover{
+    background-color: turquoise;
+    cursor: pointer;
+}
+
+.select{
+    padding-left: 200px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.tableSizeSelect{
+    border: 1px solid turquoise;
+    height: 20px;
+    width: 35px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+
+
+.table-container{
+    padding-top: 20px;
+    text-align: center; 
+}
+
+.table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 16px;
+    width: 780px;
+    overflow: hidden;
+    
+}
+
+.table thead tr{
+    background-color:turquoise;
+    color: white; 
+    font-weight: bold;
+    font-style: normal;
+}
+
+table th,
+.table td{
+    padding: 12px 15px;  
+}
+
+.table tbody tr{
+    border-bottom: 1px solid snow;
+}
+
+.table tbody tr{ 
+    background-color:white;
+}
+
+.table tbody tr:hover{
+    font-weight: 400;
+    color:green;
+}
+
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.page{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 200px;
+}
+.pgSetup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.pagination{
+    float:right;
+    margin-right: 200px;
+
+}  
+.pageButton {
+    background-color:blue;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.clickPageNumber {
+    background-color: turquoise;
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.pagination span {
+  display: inline-block;
+}
+
+.pagination span:hover {
+  cursor: pointer;
+}
+.opacity {
+  opacity: 0.5;
+}
+.page-number {
+  outline: none;
+  user-select: none; 
+}
+
+
+
+  

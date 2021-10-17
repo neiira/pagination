@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>pagination</title>
+</head>
+<body>   
+<div class="container">
+    <p class="alphabets">FIND BY ALPHABETS</p>
+    <div class="alphabetBtn" id="alphabetBtn">
+        <a href="#">A</a>
+        <a href="#">B</a>
+        <a href="#">C</a>
+        <a href="#">D</a>
+        <a href="#">E</a>
+        <a href="#">F</a>
+        <a href="#">G</a>
+        <a href="#">H</a>
+        <a href="#">I</a>
+        <a href="#">J</a>
+        <a href="#">K</a>
+        <a href="#">L</a>
+        <a href="#">M</a>
+        <a href="#">N</a>
+        <a href="#">O</a>
+        <a href="#">P</a>
+        <a href="#">Q</a>
+        <a href="#">R</a>
+        <a href="#">S</a>
+        <a href="#">T</a>
+        <a href="#">U</a>
+        <a href="#">V</a>
+        <a href="#">W</a>
+        <a href="#">X</a>
+        <a href="#">Y</a>
+        <a href="#">Z</a>
+    </div>
+    <div class="sortArea">
+        <div class="select">Show<span>
+            <select id="tableSizeSelect" class="tableSizeSelect">
+                <option value="3" selected >3</option>
+                <option value="6">6</option>
+            </select></span>entries
+        </div>
+        <div class="sort-btn">
+            <button id="sortByName" class="sortByName">sort by name</button>
+            <button id="sortByOddId" class="sortByOddId">odd ID</button>
+            <button id="sortByEvenId" class="sortByEvenId">even ID</button>
+        </div>
+    </div>
+    <div class="table-container" >
+        <table class="table" id="table">
+            <thead id="tbody">
+                <th>id</th>
+                <th>email</th>
+                <th>firstname</th>
+                <th>lastname</th>
+                <th>img</th>
+            </thead>
+            <tbody id="listingTable">
+
+            </tbody>
+        </table>
+    </div>
+    <div class="pgSetup" id="pgSetup">
+        <div class="page" id="pgNumbers"></div>
+        <div class="pagination" id="pagination">
+            <span class="pageButton outline-none" id="button_prev">Prev</span>
+            <span id="page_number" class="page-number"></span>
+            <span class="pageButton outline-none" id="button_next">Next</span>
+        </div>
+    </div>
+</div>
+  <script src="javaScript.js"></script>
+</body>
+</html>
